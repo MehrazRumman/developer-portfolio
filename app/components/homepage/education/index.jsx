@@ -59,15 +59,18 @@ function Education() {
                           {education.duration}
                         </p>
                       </div>
-                      <div className="flex items-center gap-x-8 px-3 py-5">
-                        <div className="text-violet-500  transition-all duration-300 hover:scale-125">
+                      <div className="flex items-start gap-x-8 px-3 py-5">
+                        <div className="text-violet-500 transition-all duration-300 hover:scale-125 mt-1">
                           <BsPersonWorkspace size={36} />
                         </div>
-                        <div>
+                        <div className="flex-1">
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">
                             {education.title}
                           </p>
-                          <p className="text-sm sm:text-base">{education.institution}</p>
+                          <p className="text-sm sm:text-base text-[#16f2b3] mb-1">{education.institution}</p>
+                          {education.gpa && (
+                            <p className="text-xs sm:text-sm text-gray-400">{education.gpa}</p>
+                          )}
                         </div>
                       </div>
                     </div>

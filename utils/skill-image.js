@@ -165,6 +165,8 @@ export const skillsImage = (skill) => {
       return deno;
     case 'django':
       return django;
+    case 'django rest framework':
+      return django;
     case 'firebase':
       return firebase;
     case 'gimp':
@@ -192,6 +194,8 @@ export const skillsImage = (skill) => {
     case 'strapi':
       return strapi;
     case 'tensorflow':
+      return tensorflow;
+    case 'scikit-learn':
       return tensorflow;
     case 'webix':
       return webix;
@@ -225,6 +229,94 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'react native':
+      return react;
+    case 'next.js':
+      return nextJS;
+    case 'nextjs':
+      return nextJS;
+    case 'tailwind':
+      return tailwind;
+    case 'bootstrap':
+      return bootstrap;
+    case 'css':
+      return css;
+    case 'html':
+      return html;
+    case 'javascript':
+      return javascript;
+    case 'typescript':
+      return typescript;
+    case 'react':
+      return react;
+    case 'java':
+      return java;
+    case 'mongodb':
+      return mongoDB;
+    case 'mysql':
+      return mysql;
+    case 'postgresql':
+      return postgresql;
+    case 'aws':
+      return aws;
+    case 'matplotlib':
+      return numpy;
+    case 'pandas':
+      return numpy;
+    case 'ci/cd pipelines':
+      return git;
+    case 'github actions':
+      return git;
+    case 'bitbucket':
+      return git;
+    case 'jenkins':
+      return git;
+    case 'openrtb':
+      return git;
+    case 'pyqt5':
+      return python;
+    case 'clickhouse':
+      return postgresql;
+    case 'fortran':
+      return c;
+    case 'linear algebra':
+      return matlab;
+    case 'matrix':
+      return matlab;
+    case 'calculus':
+      return matlab;
+    case 'fuzzy mathematics':
+      return matlab;
+    case 'folium':
+      return python;
+    case 'xarray':
+      return numpy;
+    case 'svm':
+      return tensorflow;
+    case 'one-class svm':
+      return tensorflow;
+    case 'sdm':
+      return tensorflow;
+    case 'random forest':
+      return tensorflow;
+    case 'regression':
+      return tensorflow;
+    case 'data analysis':
+      return numpy;
+    case 'data preprocessing':
+      return numpy;
+    case 'model development':
+      return tensorflow;
+    case 'ecological data analysis':
+      return numpy;
+    case 'environmental data analysis':
+      return numpy;
+    case 'machine learning':
+      return tensorflow;
+    case 'biodiversity analysis':
+      return numpy;
+    case 'species distribution modeling':
+      return tensorflow;
     default:
       break;
   }

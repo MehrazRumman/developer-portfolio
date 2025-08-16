@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'stardark394@gmail.com',
+    email: 'mehrazrumman@gmail.com',
     phone: '+8801864009948',
-    address: 'Shahjahanpur, Dhaka, Bangladesh - 1217',
+    address: 'Dhaka, Bangladesh',
     github: 'https://github.com/MehrazRumman',
     facebook:'https://www.facebook.com/keai333',
     linkedIn: 'https://www.linkedin.com/in/mehraz-rumman/',
